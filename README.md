@@ -10,5 +10,5 @@ docker build -t php7-apache:1.0 .
 -t imageName:tag
 
 # RUN container
-docker run -d -p443:443 --name containerName imageName
+docker run -d -p443:443 --name containerName imageName \
 docker run -d -p443:443 --name test1 php7-apache:1.0
